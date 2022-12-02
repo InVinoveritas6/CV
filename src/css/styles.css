@@ -1,0 +1,287 @@
+body {
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+    background: #b5b5b5;
+}
+
+.list {
+    background: #ffffff;
+    width: 800px;
+    height: 1170px;
+    box-shadow: -50px 50px 70px rgb(0, 0, 0, 0.5);
+}
+
+.content {
+    position: relative;
+    margin: 0 50px 0 100px;
+    width: 650px;
+    height: 1090px;
+    padding-bottom: 20px;
+}
+
+.header {
+    background: #ffffff;
+    height: 130px;
+}
+
+.resume-block {
+    position: relative;
+    background: #211c1e;
+    width: 250px;
+    height: 100%;
+    left: 0;
+    margin: 0;
+}
+
+.resume {
+    position: absolute;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 35px;
+    left: 25px;
+    bottom: 10px;
+}
+a:link {
+    text-decoration: none;
+    color: #ffffff !important;
+
+
+}
+
+a:visited {
+    color: #ffffff !important;
+}
+
+a:focus {
+
+}
+
+a:hover {
+
+}
+.name-block {
+    background: #ffffff;
+    padding: 10px 0;
+}
+.name {
+    color: #211c1e;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.profession {
+    color: #211c1e;
+    font-style: italic;
+    font-size: 20px;
+}
+.information {
+    display: grid;
+    width: 100%;
+    height: 840px;
+    gap: 40px;
+    grid-template-columns: 250px 1fr;
+    /* background: yellow; */
+}
+.personal-information-block {
+    background: #211c1e;
+    height: 100%;
+    width: 100%;
+}
+
+.photo {
+    background: url("../image/bg.jpg");
+    width: 100%;
+    height: 250px;
+}
+.personal-information-container {
+    height: 550px;
+    padding: 0 25px 0 25px;
+}
+.h2white {
+    margin-top:  15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 34px;
+}
+
+.experiences-information-block {
+    background: #ffffff;
+    height: 100%;
+    width: 100%;
+}
+.info-container {
+    padding:  10px 0 15px 0;
+}
+.title {
+    display: flex;
+    font-size: 17px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+.titlename {
+    padding: 2px 0 0 5px;
+}
+.info {
+    color: #ffffff;
+    word-wrap: break-word;
+    overflow: hidden;
+    width: 100%;
+    font-size: 14px;
+}
+.experiences-information-block {
+    display: grid;
+    grid-template-rows: 0.55fr 0.4fr 1fr 0.7fr;
+}
+
+.aboutme-title {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 34px;
+}
+.aboutme {
+    padding: 20px 0;
+    text-align: justify;
+    border-bottom: 2px solid #000;
+
+}
+
+.job-experiences-container {
+    display: grid;
+    grid-template-rows: 60px 50px;
+    grid-template-areas: "title title" "experiences experiences";
+    border-bottom: 2px solid #000;
+
+}
+.job-experiences-title {
+    grid-area: title;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 34px;
+    margin-top: 10px;
+}
+.job-experiences {
+    display: grid;
+    grid-template-areas: "time place";
+    grid-template-columns: 100px;
+    grid-area: experiences;
+}
+.time {
+    margin-top: 5px;
+    grid-area: time;
+}
+.place {
+    grid-area: place;
+}
+.organization-name {
+    color: grey;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.education-block {
+    display: grid;
+}
+.education-container {
+    display: grid;
+    grid-template-rows: 50px 0px 0px;
+    grid-template-areas: 
+    "title title"
+     "experiences experiences" 
+     "experiences2 experiences2";
+    margin-top: 15px;
+}
+.education-title {
+    grid-area: title;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 34px;
+}
+.education {
+    display: grid;
+    grid-template-areas: "time place" "time place";
+    grid-template-columns: 100px;
+    grid-area: experiences;
+}
+.education2 {
+    display: grid;
+    margin-top: 90px;
+    grid-template-areas: "time place" "time place";
+    grid-template-columns: 100px;
+    grid-area: experiences2;
+}
+.skills-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 325px;
+    gap: 20px;
+    border-bottom: 2px solid #000;
+
+    
+}
+
+.proffesional-skills-title {
+    margin: 20px 0 10px 0;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+}
+.proffesional-skills {
+    font-size: 16px;
+}
+
+.presonal-skills-title {
+    margin: 20px 0 10px 0;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+}
+.presonal-skills {
+    font-size: 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background: #878789;
+    height: 80px;
+    padding-top: 10px;
+}
+.linkedin {
+    display: flex;
+
+}
+.link {
+    padding: 4px 0 0 5px;
+
+}
+.githab {
+    display: flex;
+
+}
+.gmail {
+    display: flex;
+
+}
+
+.linkedin svg {
+    fill: #ffffff;
+  }
+.githab svg {
+    fill: #ffffff;
+  }
+.gmail svg {
+    fill: #ffffff;
+  }
+.title svg {
+    fill: #ffffff;
+  }
